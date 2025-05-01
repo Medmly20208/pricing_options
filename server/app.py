@@ -42,7 +42,7 @@ class EulerMaryoumaInput(BaseModel):
 # Allow frontend dev server
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:5173","https://pricing-option-black-scholes.netlify.app"],
+    allow_origins=["http://localhost:5173","https://pricing-option-black-scholes.netlify.app","pricing-option-black-scholes.netlify.app"],
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
