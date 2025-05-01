@@ -50,7 +50,7 @@ export default function BlackScholes() {
     e.preventDefault();
     try {
       const res = await axios.post<ResponseData>(
-        "http://localhost:8000/black-scholes",
+        "https://pricing-options.onrender.com/black-scholes",
         form
       );
       setResult(res.data);

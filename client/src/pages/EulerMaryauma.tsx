@@ -57,7 +57,7 @@ export default function EulerMaryouma() {
     e.preventDefault();
     try {
       const res = await axios.post<EulerMaryoumaResponse>(
-        "http://localhost:8000/euler-maruyama", // URL à adapter pour votre API backend
+        "https://pricing-options.onrender.com/euler-maruyama", // URL à adapter pour votre API backend
         form
       );
       setResult(res.data);

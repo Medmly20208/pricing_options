@@ -55,7 +55,7 @@ export default function MonteCarlo() {
     e.preventDefault();
     try {
       const res = await axios.post<MonteCarloResponse>(
-        "http://localhost:8000/monte-carlo",
+        "https://pricing-options.onrender.com/monte-carlo",
         form
       );
       setResult(res.data);
