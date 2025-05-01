@@ -23,7 +23,7 @@ export default function Navbar() {
         to="/euler-maruyama"
         className={location.pathname === "/euler-maruyama" ? "active" : ""}
       >
-        Euler Maryauma
+        Euler maruyama
       </Link>
     </div>
   );

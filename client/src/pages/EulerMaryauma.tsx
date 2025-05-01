@@ -76,7 +76,7 @@ export default function EulerMaryouma() {
 
   return (
     <div style={{ maxWidth: "600px", margin: "auto" }}>
-      <h2>Euler-Maruyama Option Pricing</h2>
+      <h2>EOption Pricing</h2>
       <form
         onSubmit={handleSubmit}
         style={{
