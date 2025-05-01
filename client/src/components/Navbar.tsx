@@ -20,8 +20,8 @@ export default function Navbar() {
         Monte Carlo
       </Link>
       <Link
-        to="/euler-maryauma"
-        className={location.pathname === "/euler-maryauma" ? "active" : ""}
+        to="/euler-maruyama"
+        className={location.pathname === "/euler-maruyama" ? "active" : ""}
       >
         Euler Maryauma
       </Link>

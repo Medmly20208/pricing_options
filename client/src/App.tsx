@@ -19,7 +19,7 @@ function App() {
             <Route path="/" element={<Navigate to="/black-scholes" />} />
             <Route path="/black-scholes" element={<BlackScholes />} />
             <Route path="/monte-carlo" element={<MonteCarlo />} />
-            <Route path="/euler-maryauma" element={<EulerMaryouma />} />
+            <Route path="/euler-maruyama" element={<EulerMaryouma />} />
           </Routes>
         </div>
       </div>
